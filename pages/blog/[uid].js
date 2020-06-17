@@ -23,6 +23,14 @@ const Post = ({ post }) => {
     return (
       <DefaultLayout>
         <Head>
+          <title>{RichText.asText(doc.data.headline)}</title>
+        </Head>
+        <Header
+          image={doc.data.image}
+          headline={doc.data.headline}
+          description={doc.data.description}
+        />
+        <Head>
           <title>{title}</title>
         </Head>
         <div className="main">
