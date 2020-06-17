@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { RichText } from "prismic-reactjs";
+import { Header } from "components/home";
 
 import { queryRepeatableDocuments } from 'utils/queries'
 
